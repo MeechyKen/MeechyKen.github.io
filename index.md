@@ -7,5 +7,5 @@ a game that showcases the object-oriented programming concepts of polymorphism, 
 [C# Adventure Game](https://github.com/MeechyKen/Adventure-Game/blob/main/HighPeoria/HighPeoria/Aliens.cs)
 
 ## Adopt-An-Insect
-a program that enables users to design their own insect characters: [Adopt-An-Insect]([https://gist.github.com/janellbaxter/4662ba74972338ea92f40f1e6051e220](https://github.com/MeechyKen/-Adopt-an-Insect/blob/main/Adopt%20an%20Insect/Insect/Insect.cs))
+a program that enables users to design their own insect characters: [Adopt-An-Insect](https://github.com/MeechyKen/-Adopt-an-Insect/blob/main/Adopt%20an%20Insect/Insect/Insect.cs)
 
