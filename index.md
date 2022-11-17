@@ -1,3 +1,3 @@
-MY Programming Portfolio 
+## MY Programming Portfolio 
 
-Adventure Game: HighPeoria
+### Adventure Game: HighPeoria
