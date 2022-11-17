@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 title: Ismael's Portfolio
 description: My Name Ismael Gonzalez, here is my portfolio to Programming 1
-logo: "/images/logo.png?raw=true"
+
+<img src="images/demo.gif?raw=true"/>
