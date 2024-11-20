@@ -4,9 +4,21 @@
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
+body {
+  background-color: lightblue;
+}
 
-<h1>Welcome</h1>
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome Site</h1>
 <p>Hi welcome to my website</p>
 
 </body>
 </html>
+
