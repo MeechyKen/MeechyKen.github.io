@@ -1,8 +1,17 @@
 body {
-  background-color: lightgreen;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: green;
-  margin-left: 20px;
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
 }
