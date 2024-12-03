@@ -2,14 +2,16 @@ let sound, fft, particles = [];
 let playing = false;
 
 function preload() {
+  // Load the sound file
   sound = loadSound('https://ia801706.us.archive.org/14/items/nintendo-3ds-original-soundtrack/1-01.%20Initial%20Setup.mp3');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  sound.loop();
-  sound.pause();
   fft = new p5.FFT();
+
+  // Ensure sound is not played on load
+  sound.setVolume(0.5);
 }
 
 function draw() {
@@ -30,6 +32,11 @@ function draw() {
       particles.splice(index, 1);
     }
   });
+
+  // Instruction text
+  fill(255);
+  textAlign(CENTER, CENTER);
+  text("Click 'Toggle Sound' to play the music.", width / 2, height - 50);
 }
 
 // Particle class
@@ -62,7 +69,9 @@ class Particle {
 document.getElementById('toggle-sound').addEventListener('click', () => {
   playing = !playing;
   if (playing) {
-    sound.play();
+    if (!sound.isPlaying()) {
+      sound.loop();
+    }
   } else {
     sound.pause();
   }
