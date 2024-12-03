@@ -2,7 +2,7 @@ let sound, fft, particles = [];
 let playing = false;
 
 function preload() {
-  sound = loadSound('https://soundcloud.com/sebald1105/alternative-outro-lucki-instrumental');
+  sound = loadSound('https://ia801706.us.archive.org/14/items/nintendo-3ds-original-soundtrack/1-01.%20Initial%20Setup.mp3');
 }
 
 function setup() {
